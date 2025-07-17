@@ -9,6 +9,8 @@
     <property name="hibernate.connection.password">2003Sahang</property>
     <property name="hibernate.show_sql">true</property>
     <mapping class="hibernate.User"/>
+    <mapping class="hibernate.City"/>
+    <mapping class="hibernate.Address"/>
     
   </session-factory>
 </hibernate-configuration>
